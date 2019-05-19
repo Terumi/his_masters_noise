@@ -19856,7 +19856,7 @@ Distributor Buerklin, 11G810</description>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E1.8-4" package3d_urn="urn:adsk.eagle:package:23336/2" value="2.2uF"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PINKISH_NOISE1" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
+<part name="DIGITAL_NOISE" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -20086,7 +20086,7 @@ Distributor Buerklin, 11G810</description>
 <instance part="GND15" gate="1" x="-35.56" y="406.4" smashed="yes">
 <attribute name="VALUE" x="-38.1" y="403.86" size="1.778" layer="96"/>
 </instance>
-<instance part="PINKISH_NOISE1" gate="G$1" x="170.18" y="401.32" smashed="yes">
+<instance part="DIGITAL_NOISE" gate="G$1" x="170.18" y="401.32" smashed="yes">
 <attribute name="NAME" x="167.64" y="405.384" size="1.778" layer="95"/>
 </instance>
 <instance part="GND16" gate="1" x="129.54" y="375.92" smashed="yes">
@@ -20544,7 +20544,7 @@ Distributor Buerklin, 11G810</description>
 <net name="N$22" class="0">
 <segment>
 <pinref part="IC4" gate="A" pin="Q"/>
-<pinref part="PINKISH_NOISE1" gate="G$1" pin="2"/>
+<pinref part="DIGITAL_NOISE" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="403.86" x2="165.1" y2="403.86" width="0.1524" layer="91"/>
 </segment>
 </net>
